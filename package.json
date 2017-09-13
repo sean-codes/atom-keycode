@@ -10,7 +10,7 @@
       "keys",
       "code"
    ],
-   "repository": "https://github.com/sean-codes/atom-keycode/",
+   "repository": "https://github.com/sean-codes/atom-keycode",
    "license": "MIT",
    "engines": {
       "atom": ">=1.0.0 <2.0.0"
