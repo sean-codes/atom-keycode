@@ -1,22 +1,25 @@
 {
-  "name": "atom-keycode",
-  "main": "./lib/atom-keycode",
-  "version": "0.0.0",
-  "description": "A short description of your package",
-  "keywords": [
-  ],
-  "repository": "https://github.com/atom/atom-keycode",
-  "license": "MIT",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
-  },
-  "consumedServices": {
-    "status-bar": {
-      "versions": {
-        "^1.0.0": "consumeStatusBar"
+   "name": "atom-keycode",
+   "main": "./lib/atom-keycode",
+   "version": "0.0.0",
+   "description": "View / Copy the last key typed",
+   "keywords": [
+      "keycode",
+      "keyboard",
+      "key code",
+      "keys",
+      "code"
+   ],
+   "repository": "https://github.com/atom/atom-keycode",
+   "license": "MIT",
+   "engines": {
+      "atom": ">=1.0.0 <2.0.0"
+   },
+   "consumedServices": {
+      "status-bar": {
+         "versions": {
+            "^1.0.0": "consumeStatusBar"
+         }
       }
-    }
-},
-  "dependencies": {
-  }
+   },
 }
