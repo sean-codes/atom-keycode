@@ -1,25 +1,25 @@
 {
-   "name": "atom-keycode",
-   "main": "./lib/atom-keycode",
-   "version": "0.0.0",
-   "description": "View / Copy the last key typed",
-   "keywords": [
-      "keycode",
-      "keyboard",
-      "key code",
-      "keys",
-      "code"
-   ],
-   "repository": "https://github.com/sean-codes/atom-keycode",
-   "license": "MIT",
-   "engines": {
-      "atom": ">=1.0.0 <2.0.0"
-   },
-   "consumedServices": {
-      "status-bar": {
-         "versions": {
-            "^1.0.0": "consumeStatusBar"
-         }
+  "name": "atom-keycode",
+  "main": "./lib/atom-keycode",
+  "version": "0.1.0",
+  "description": "View / Copy the last key typed",
+  "keywords": [
+    "keycode",
+    "keyboard",
+    "key code",
+    "keys",
+    "code"
+  ],
+  "repository": "https://github.com/sean-codes/atom-keycode",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
       }
-   }
+    }
+  }
 }
