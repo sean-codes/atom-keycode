@@ -1,0 +1,27 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.atom-keycode-icon-container{
+   position:relative;
+   .icon{
+      transition:all 0.25s;
+   }
+   .atom-keycode-display{
+      position:absolute;
+      opacity:0;
+      top:0; left:0;
+   }
+   &:hover{
+      cursor:copy;
+      .atom-keycode-display {
+         opacity:1;
+      }
+
+      .atom-keycode-icon{
+         opacity:0;
+      }
+   }
+}
