@@ -1,25 +1,77 @@
 {
-  "name": "atom-keycode",
-  "main": "./lib/atom-keycode",
-  "version": "0.10.0",
-  "description": "View / Copy the last key typed",
-  "keywords": [
-    "keycode",
-    "keyboard",
-    "key code",
-    "keys",
-    "code"
-  ],
-  "repository": "https://github.com/sean-codes/atom-keycode",
-  "license": "MIT",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
-  },
-  "consumedServices": {
-    "status-bar": {
-      "versions": {
-        "^1.0.0": "consumeStatusBar"
+   "_from": "https://www.atom.io/api/packages/atom-keycode/versions/0.10.0/tarball",
+   "_id": "atom-keycode@0.10.0",
+   "_inBundle": false,
+   "_integrity": "sha512-cRnEcc1bXfVAi/CSjk2IGlm2/Y2P6qbq0CLblX/QzKQuaw++8NCffRIAWV9a/kr3xWhIu+SkbCnYstIoRYqalQ==",
+   "_location": "/atom-keycode",
+   "_phantomChildren": {},
+   "_requested": {
+      "type": "remote",
+      "raw": "https://www.atom.io/api/packages/atom-keycode/versions/0.10.0/tarball",
+      "rawSpec": "https://www.atom.io/api/packages/atom-keycode/versions/0.10.0/tarball",
+      "saveSpec": "https://www.atom.io/api/packages/atom-keycode/versions/0.10.0/tarball",
+      "fetchSpec": "https://www.atom.io/api/packages/atom-keycode/versions/0.10.0/tarball"
+   },
+   "_requiredBy": [
+      "#USER",
+      "/"
+   ],
+   "_resolved": "https://www.atom.io/api/packages/atom-keycode/versions/0.10.0/tarball",
+   "_shasum": "8a39c6bc5c0b5bdf4554d78743f4d07775937d3f",
+   "_spec": "https://www.atom.io/api/packages/atom-keycode/versions/0.10.0/tarball",
+   "_where": "/private/var/folders/t6/hrw6h18d155gr4pzkvprm45h0000gn/T/apm-install-dir-120427-74188-z8uqsy.y7cmb",
+   "bugs": {
+      "url": "https://github.com/sean-codes/atom-keycode/issues"
+   },
+   "bundleDependencies": false,
+   "consumedServices": {
+      "status-bar": {
+         "versions": {
+            "^1.0.0": "consumeStatusBar"
+         }
       }
-    }
-  }
+   },
+   "deprecated": false,
+   "description": "View / Copy the last key typed",
+   "engines": {
+      "atom": ">=1.0.0 <2.0.0"
+   },
+   "homepage": "https://github.com/sean-codes/atom-keycode#readme",
+   "keywords": [
+      "keycode",
+      "keyboard",
+      "key code",
+      "keys",
+      "code"
+   ],
+   "license": "MIT",
+   "main": "./lib/atom-keycode",
+   "name": "atom-keycode",
+   "repository": {
+      "type": "git",
+      "url": "git@github.com:sean-codes/atom-keycode.git"
+   },
+   "version": "1.2.0",
+   "configSchema": {
+      "clickAction": {
+         "title": "Click action",
+         "description": "Choose the action when clicking the icon",
+         "type": "string",
+         "default": "write",
+         "enum": [
+            {
+               "value": "write",
+               "description": "Write the keycode into the text buffer"
+            },
+            {
+               "value": "copy",
+               "description": "Copy the keycode to clipboard"
+            },
+            {
+               "value": "both",
+               "description": "Copy to clipboard and write to text buffer"
+            }
+         ]
+      }
+   }
 }
